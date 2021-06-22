@@ -1,36 +1,16 @@
-import "./assets/css/App.css";
-import React, { Component } from "react";
-import Tasks from "./components/Tasks";
-import Form from "./components/Form";
-import uuid from "uuid-random";
+import './App.css';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import React from "react";
+import Landing from "./modules/Landing/pages/Landing";
 
-class App extends Component {
-  constructor() {
-    super();
-
-    this.state = {
-      tasks: [],
-    };
-  }
-
-  createTask = (task) => {
-    const newTask = {
-      id: uuid(),
-      ...task,
-    };
-    this.setState({
-      tasks: this.state.tasks.concat(newTask),
-    });
-  };
-
-  render() {
-    return (
-      <div>
-        <Form createTask={this.createTask} />
-        <Tasks tasks={this.state.tasks}/>
-      </div>
-    );
-  }
+function App() {
+  return (
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Landing}/>
+      </Switch>
+    </Router>
+  );
 }
 
 export default App;
