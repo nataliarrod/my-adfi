@@ -1,9 +1,13 @@
 import React from "react";
+import NavBar from '../../components/NavBar'
 
 function LandingContainer() {
   return (
     <div>
-      Componentes
+      <NavBar/>
+      Section 1
+      Section 2
+      Section 3
     </div>
   );
 }
