@@ -16,15 +16,14 @@ const NavBar = () => {
         <ul className="nav-bar-label-ul">
           {labelsNavBar.map((label, index) => {
             return (
-              <li key={`navbar-label-${index}`}>
+              <li key={`nav-bar-label-${index}`}>
                 <Button type="link" text={label.name} link={label.url} />
               </li>
             );
           })}
         </ul>
-
       </div>
-      <div className="nav-bar-icons">
+      {/* <div className="nav-bar-icons">
         <div>
           <img
             src={User}
@@ -32,9 +31,11 @@ const NavBar = () => {
             className="nav-bar-user-icon"
           />
         </div>
+      </div> */}
+      <div className="nav-bar-buttons">
+        <Button type="primary" text="Crear Proyecto"></Button>
+        <Button type="secundary" text="Login"></Button>
       </div>
-      <Button type="primary" text="Crear Proyecto"></Button>
-      <Button type="secundary" text="Login"></Button>
     </div>
   );
 }
