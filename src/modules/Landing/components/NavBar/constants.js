@@ -13,7 +13,7 @@ const labelsNavBar = [
   },
   {
     name: "Contactenos",
-    url: "/contact-me",
+    url: "/contact-us",
   },
 ];
 
