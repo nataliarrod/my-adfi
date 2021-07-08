@@ -1,7 +1,6 @@
 import React from "react";
 import Logo from "../../../../assets/img/png/logo.png";
 import labelsNavBar from "./constants";
-import User from "../../../../assets/img/png/user.png";
 import "./style.css";
 import Button from "../Button";
 
