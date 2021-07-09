@@ -1,0 +1,108 @@
+.benefit-container {
+  display: block;
+  width: 100%;
+  height: 800px;
+  left: -17px;
+  top: 1683px;
+  margin: 20px;
+}
+
+.benefit-title{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 600px;
+  height: 30px;
+  left: -17px;
+  top: 1683px;
+  background: #004775;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.benefit-paragraph{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.benefit-paragraph1{
+  display: flex;
+  justify-items:flex-end;
+  align-items: center;
+  width: 400px;
+  height: 100px;
+  padding: 0 0 0 200px;
+  font-size: 15px;
+  line-height: 20px;
+  color: #004775;
+  font-family: 'Poppins', sans-serif;
+}
+
+.benefit-text2{
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  font-size: 15px;
+  line-height: 20px;
+  color: #004775;
+  font-family: 'Poppins', sans-serif;
+}
+
+.benefit-paragraph2{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 400px;
+  height: 100px;
+  padding: 0 0 0 200px;
+}
+
+.benefit-text3{
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  font-size: 15px;
+  line-height: 20px;
+  color: #004775;
+  font-family: 'Poppins', sans-serif;
+}
+
+.benefit-paragraph3{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 400px;
+  height: 100px;
+  padding: 0 0 0 200px;
+}
+
+.benefit-icon1 {
+  width: 60px;
+  height: 60px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.benefit-icon2{
+  width: 60px;
+  height: 60px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.benefit-statisticsMascot{
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  justify-content: center;
+}

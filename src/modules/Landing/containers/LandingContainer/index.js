@@ -1,14 +1,15 @@
 import React from "react";
 import NavBar from '../../components/NavBar';
 import SearchBar from "../../components/SearchBar";
+import Benefit from "../../components/Benefit";
 
 function LandingContainer() {
   return (
     <div>
-      <NavBar />
+      <NavBar/>
       Sección 1
       Sección 2
-      Sección 3
+      <Benefit/>
       Sección 4
       Sección 5
       Sección 6
