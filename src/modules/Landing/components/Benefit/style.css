@@ -21,6 +21,10 @@
   font-weight: bold;
 }
 
+.benefit-container-content{
+  display: flex;
+}
+
 .benefit-paragraphs{
   display: flex;
   flex-wrap: wrap;
@@ -100,11 +104,9 @@
 }
 
 .benefit-statisticsMascot{
-  width: 100px;
-  height: 100px;
-  margin: 20px;
+  width: 300px;
+  margin: 0 0 0 10%;
   display: flex;
-  flex-flow: column-reverse;
   align-items: center;
   justify-content: center;
 }
