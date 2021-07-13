@@ -21,9 +21,11 @@
   font-weight: bold;
 }
 
-.benefit-paragraph{
+.benefit-paragraphs{
   display: flex;
   flex-wrap: wrap;
+  width: 600px;
+  height: 300px;
 }
 
 .benefit-paragraph1{
@@ -102,7 +104,7 @@
   height: 100px;
   margin: 20px;
   display: flex;
-  align-self: flex-end;
+  flex-flow: column-reverse;
   align-items: center;
   justify-content: center;
 }
