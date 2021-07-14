@@ -22,15 +22,6 @@ const NavBar = () => {
           })}
         </ul>
       </div>
-      {/* <div className="nav-bar-icons">
-        <div>
-          <img
-            src={User}
-            alt="Linea Ancestral Logo"
-            className="nav-bar-user-icon"
-          />
-        </div>
-      </div> */}
       <div className="nav-bar-buttons">
         <Button type="primary" text="Crear Proyecto"></Button>
         <Button type="secundary" text="Login"></Button>
