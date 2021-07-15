@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from '../../components/NavBar';
 import SearchBar from "../../components/SearchBar";
+import Counter from "../../components/Counter"
 
 function LandingContainer() {
   return (
@@ -8,7 +9,7 @@ function LandingContainer() {
       <NavBar />
       Sección 1
       Sección 2
-      Sección 3
+      <Counter/>
       Sección 4
       Sección 5
       Sección 6

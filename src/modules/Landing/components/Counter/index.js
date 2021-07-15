@@ -3,7 +3,9 @@ import "./style.css";
 
 const Counter = () => {
   return (
-    <div>counter</div>
+    <div>
+      <h1>Counter</h1>
+    </div>
   )
 }
 
