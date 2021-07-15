@@ -1,19 +1,19 @@
 const labelsNavBar = [
   {
-    name: "Sobre Mi",
-    url: "/about-me",
+    name: "Quienes somos",
+    url: "/about-us",
   },
   {
     name: "Servicios",
     url: "/services",
   },
   {
-    name: "Tienda",
-    url: "/store",
+    name: "Planes",
+    url: "/plans",
   },
   {
-    name: "Contacto",
-    url: "/contact-me",
+    name: "Contactenos",
+    url: "/contact-us",
   },
 ];
 
