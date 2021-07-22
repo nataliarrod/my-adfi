@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
 import mascot04 from "../../../../assets/img/svg/mascot-04.svg";
-import ReactDOM from "react-dom";
 
 const Counter = () => {
   return (
@@ -15,11 +14,12 @@ const Counter = () => {
             +
           </span>
           <span class="counter">
-            80000
+            1000
           </span>
         </div>
         <div className="countersection-content-text">
-          Emprendedores están gestionando sus empresas
+          Emprendedores están <br />
+          gestionando sus empresas
         </div>
         <div className="countersection-content-swtich">
           lleva el control de tu negocio
