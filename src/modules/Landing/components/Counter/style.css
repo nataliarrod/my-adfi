@@ -5,12 +5,12 @@
   display: flex;
   flex-wrap: wrap-reverse;
   align-items: center;
+  margin: 0 234px 0 136px;
 }
 
 .countersection-container .countersection-image {
   width: 50%;
   height: 561px;
-  margin: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,7 +44,6 @@
 }
 
 .countersection-content-text {
-  font-size: 18px;
   font-family: 'Poppins', sans-serif;
   color: #004775;
   display: flex;
@@ -61,10 +60,15 @@
   border-radius: 25px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content:right;
+  margin: 36px 0 0 0; 
+}
+
+.countersection-content-switch-text {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 27px;
   color: #004775;
+  margin: 0 0 0 34px;
 }
