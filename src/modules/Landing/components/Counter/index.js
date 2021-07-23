@@ -22,6 +22,8 @@ const Counter = () => {
             Lleva el control de tu negocio
           </div>
           <div className="countersection-content-switch-swtchbutton">
+            <input type="checkbox" id="switch" />
+            <label for="switch"></label>
           </div>
         </div>
       </div>
