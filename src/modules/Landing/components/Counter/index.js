@@ -22,7 +22,6 @@ const Counter = () => {
             Lleva el control de tu negocio
           </div>
           <div className="countersection-content-switch-swtchbutton">
-            
           </div>
         </div>
       </div>
