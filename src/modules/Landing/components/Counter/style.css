@@ -60,8 +60,8 @@
   border-radius: 25px;
   display: flex;
   align-items: center;
-  justify-content:right;
-  margin: 36px 0 0 0; 
+  justify-content: space-between;
+  margin: 36px 0 0 0;
 }
 
 .countersection-content-switch-text {
@@ -71,33 +71,52 @@
   line-height: 27px;
   color: #004775;
   margin: 0 0 0 34px;
+  display: flex;
 }
 
-.text-switch-label{
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    background-color: #E3E5EF;
-    border-radius: 30px;
-    height: 28px;
-    margin-bottom: 0;
-    transition: 0.5s;
-    position: relative;
+/* ------------ */
+/* ------- */
+
+.countersection-content-switch-swtchbutton {
+  width: 80px;
+  height: 51px;
+  display: flex;
+  align-items: center;
 }
-.text-switch-label .text-swtch-data{
-    display: flex;
-    align-items: center;
-    position: absolute;
-    height: 100%;
-    left: -1px;
-    transition: 0.5s;
+
+.countersection-content-switch-swtchbutton input[type=checkbox]{
+  height: 0;
+  width: 0;
+  visibility: hidden;
 }
-.text-switch-label .dot-circle{
-    width: 24px;
-    height: 24px;
-    min-width: 24px;
-    min-height: 24px;
-    border-radius: 50%;
-    background-color: #fff;
-    margin: 0px 3px;
+
+.countersection-content-switch-swtchbutton label {
+  cursor: pointer;
+  text-indent: 0px;
+  width: 58px;
+  height: 34px;
+  background: #004775;
+  border-radius: 25px;
+  position: relative;
+}
+
+.countersection-content-switch-swtchbutton input:checked + label {
+  background: #98BF13;
+}
+
+.countersection-content-switch-swtchbutton label:after {
+  content: '';
+  position: absolute;
+  top: 23%;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background: #FFF;
+  transition: 0.3s;
+}
+
+.countersection-content-switch-swtchbutton input:checked + label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
 }
