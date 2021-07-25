@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import imagecountersection from "../../../../assets/img/png/user.png";
+import counterSection from "./constants.js";
 
 const Counter = () => {
   return (
@@ -14,12 +15,12 @@ const Counter = () => {
           <span class="counter">1000</span>
         </div>
         <div className="countersection-content-text">
-          Emprendedores están <br />
-          gestionando sus empresas
+          {counterSection.countertextline1} <br />
+          {counterSection.countertextline2}
         </div>
         <div className="countersection-content-swtich">
           <div className="countersection-content-switch-text">
-            Lleva el control de tu negocio
+            {counterSection.counterswitchtext}
           </div>
           <div className="countersection-content-switch-swtchbutton">
             <input type="checkbox" id="switch" />
