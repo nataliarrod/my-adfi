@@ -1,4 +1,8 @@
-
+a {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: #004775;
+}
 
 .button-primary {
   background-color: #004775;
@@ -12,7 +16,6 @@
   justify-content: center;
   align-items: center;
   padding: 0px 20px;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 17px;
@@ -36,7 +39,6 @@
   justify-content: center;
   align-items: center;
   padding: 0px 20px;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 17px;
@@ -51,7 +53,21 @@
   line-height: 27px;
 }
 
-a {
-  text-decoration: none;
+.button-secundary-with-icon{
+  border: 2px solid #0098AD;
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: #004775;
+  border-radius: 11px;
+  width: 177px;
+  height: 46px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 25px;
 }

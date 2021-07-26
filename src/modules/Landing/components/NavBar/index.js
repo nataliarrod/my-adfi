@@ -24,7 +24,7 @@ const NavBar = () => {
       </div>
       <div className="nav-bar-buttons">
         <Button type="primary" text="Crear Proyecto"></Button>
-        <Button type="secundary" text="Login"></Button>
+        <Button type="secundary-with-icon" text="Login"></Button>
       </div>
     </div>
   );
