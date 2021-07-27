@@ -17,13 +17,13 @@ return (
             {benefitConstants.paragraph1}
           </div>
           <div className="benefit-paragraph2">
-            <div className="benefit-icon1">
+            <div className="benefit-icon2">
               <img src={icon1} alt="1-27" />
             </div>
             <div className="benefit-text2">{benefitConstants.paragraph2}</div>
           </div>
           <div className="benefit-paragraph3">
-            <div className="benefit-icon2">
+            <div className="benefit-icon3">
               <img src={icon2} alt="1-11" />
             </div>
             <div className="benefit-text3">{benefitConstants.paragraph3}</div>
