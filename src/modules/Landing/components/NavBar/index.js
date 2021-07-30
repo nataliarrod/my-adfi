@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../../../assets/img/png/logo.png";
+import Logo from "../../../../assets/img/png/LOGO-02.png";
 import labelsNavBar from "./constants";
 import "./style.css";
 import Button from "../Button";
@@ -24,7 +24,7 @@ const NavBar = () => {
       </div>
       <div className="nav-bar-buttons">
         <Button type="primary" text="Crear Proyecto"></Button>
-        <Button type="secundary" text="Login"></Button>
+        <Button type="secundary-with-icon" text="Login"></Button>
       </div>
     </div>
   );
