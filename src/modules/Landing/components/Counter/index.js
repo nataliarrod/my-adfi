@@ -1,13 +1,18 @@
 import React from "react";
 import "./style.css";
-import imagecountersection from "../../../../assets/img/png/user.png";
+import imagecountersection from "../../../../assets/svg/calendar.svg";
 import counterSection from "./constants.js";
 
 const Counter = () => {
   return (
     <div className="countersection-container">
       <div className="countersection-image">
-        <img src={imagecountersection} alt="user" />
+        <img
+          src={imagecountersection}
+          alt="user"
+          width="500px"
+          height="500px"
+        />
       </div>
       <div className="countersection-content">
         <div className="countersection-content-count">
