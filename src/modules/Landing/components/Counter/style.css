@@ -5,7 +5,8 @@
   display: flex;
   flex-wrap: wrap-reverse;
   align-items: center;
-  margin: 0 234px 0 136px;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .countersection-container .countersection-image {

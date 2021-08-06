@@ -12,7 +12,7 @@
 
 .nav-bar-logo {
   width: 83px;
-  left: 2px;
+  padding-left: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
