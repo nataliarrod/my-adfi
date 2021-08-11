@@ -3,6 +3,7 @@ import NavBar from '../../components/NavBar';
 import SearchBar from "../../components/SearchBar";
 import Benefit from "../../components/Benefit";
 import Counter from "../../components/Counter"
+import PayPlanSection from "../../components/PayPlanSection";
 
 function LandingContainer() {
   return (
@@ -11,6 +12,7 @@ function LandingContainer() {
       <Benefit/>
       <Counter/>
       <SearchBar/>
+      <PayPlanSection />
     </div>
   );
 }
