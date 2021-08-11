@@ -1,20 +1,21 @@
 import React from "react";
-import NavBar from '../../components/NavBar';
 import SearchBar from "../../components/SearchBar";
 import Benefit from "../../components/Benefit";
-import Counter from "../../components/Counter"
+import Counter from "../../components/Counter";
 import PayPlanSection from "../../components/PayPlanSection";
 import Presentation from "../../components/Presentation";
+import Layout from "../../components/Layout/Layout";
 
 function LandingContainer() {
   return (
     <div>
-      <NavBar/>
-      <Presentation />
-      <Benefit/>
-      <Counter/>
-      <SearchBar/>
-      <PayPlanSection />
+      <Layout>
+        <Presentation />
+        <Benefit />
+        <Counter />
+        <SearchBar />
+        <PayPlanSection />
+      </Layout>
     </div>
   );
 }
