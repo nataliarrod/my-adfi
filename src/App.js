@@ -6,9 +6,9 @@ import Landing from "./modules/Landing/pages/Home";
 function App() {
   return (
     <Router>
-        <Switch>
-          <Route exact path="/" component={Landing} />
-        </Switch>
+      <Switch>
+        <Route exact path="/" component={Landing} />
+      </Switch>
     </Router>
   );
 }
