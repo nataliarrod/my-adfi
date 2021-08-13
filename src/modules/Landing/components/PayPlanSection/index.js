@@ -59,7 +59,6 @@ const PayPlanSection = () => {
         </Grid>
         <Grid
           container
-          xs={10}
           direction="column"
           className={classes.payPlanBackContainer}
         >

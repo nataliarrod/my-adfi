@@ -16,8 +16,8 @@ const Counter = () => {
       </div>
       <div className="countersection-content">
         <div className="countersection-content-count">
-          <span class="text-primary">+</span>
-          <span class="counter">1000</span>
+          <span className="text-primary">+</span>
+          <span className="counter">1000</span>
         </div>
         <div className="countersection-content-text">
           {counterSection.countertextline1} <br />
@@ -29,7 +29,7 @@ const Counter = () => {
           </div>
           <div className="countersection-content-switch-swtchbutton">
             <input type="checkbox" id="switch" />
-            <label for="switch"></label>
+            <label htmlFor="switch"></label>
           </div>
         </div>
       </div>
