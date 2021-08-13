@@ -1,17 +1,15 @@
 import React from "react";
 import GeneralCarousel from "../GeneralCarousel";
 import Grid from "@material-ui/core/Grid";
+import CountUp from "react-countup";
 import useStyles from "./styles";
 
 const Testimonials = () => {
   const classes = useStyles();
+  console.log("hola");
 
   return (
-    <Grid 
-    container
-    justifyContent="center" 
-    className={classes.root}
-    >
+    <Grid container justifyContent="center" className={classes.root}>
       <Grid
         container
         item
@@ -21,15 +19,30 @@ const Testimonials = () => {
         <Grid item xs={6} className={classes.textContainer}>
           <Grid className={classes.text} item>
             <h4>Lorem</h4>
-            <p>+<span>1000</span></p>
+            <p>
+              +
+              <span>
+                <CountUp end={1000} duration={2} />
+              </span>
+            </p>
           </Grid>
           <Grid className={classes.text} item>
             <h4>Lorem</h4>
-            <p>+<span>2000</span></p>
+            <p>
+              +
+              <span>
+                <CountUp end={2000} duration={2} />
+              </span>
+            </p>
           </Grid>
           <Grid className={classes.text} item>
             <h4>Lorem</h4>
-            <p>+<span>3500</span></p>
+            <p>
+              +
+              <span>
+                <CountUp end={3500} duration={2} />
+              </span>
+            </p>
           </Grid>
         </Grid>
         <Grid xs={6} item className={classes.carouselContainer}>

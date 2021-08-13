@@ -21,6 +21,7 @@ const useStyles = makeStyles(() => ({
     alignItems: "center",
   },
   text: {
+    width: '120px',
     fontFamily: "Poppins",
     display: "flex",
     flexDirection: "column",
