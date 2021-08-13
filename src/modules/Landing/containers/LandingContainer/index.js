@@ -4,6 +4,7 @@ import Benefit from "../../components/Benefit";
 import Counter from "../../components/Counter";
 import PayPlanSection from "../../components/PayPlanSection";
 import Presentation from "../../components/Presentation";
+import Testimonials from "../../components/Testimonials";
 import Layout from "../../components/Layout/Layout";
 
 function LandingContainer() {
@@ -11,6 +12,7 @@ function LandingContainer() {
     <div>
       <Layout>
         <Presentation />
+        <Testimonials />
         <Benefit />
         <Counter />
         <SearchBar />
