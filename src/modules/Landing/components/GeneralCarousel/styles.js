@@ -5,10 +5,10 @@ const useStyles = makeStyles(() => ({
     width: "500px",
     height: "100px",
     "& .react-multi-carousel-dot-list": {
-      justifyContent: 'flex-end',
+      justifyContent: "flex-end",
     },
     "& .react-multi-carousel-dot--active button": {
-      backgroundColor: '#004775',
+      backgroundColor: "#004775",
     },
   },
 }));
