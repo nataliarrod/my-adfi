@@ -2,11 +2,13 @@ import React from "react";
 import { Grid } from "@material-ui/core";
 import HoverBlock from "../HoverBlock";
 import { hoverblockConstants } from "./constants";
+import useStyles from "./style";
 
 const Services = () => {
+  const classes = useStyles();
 
   return (
-    <Grid justifyContent="center" container xs={12}>
+    <Grid className={classes.services} justifyContent="center" container xs={12}>
       {
         hoverblockConstants.map(hoverBlock => {
           return (
