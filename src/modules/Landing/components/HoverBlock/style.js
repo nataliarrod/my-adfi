@@ -13,10 +13,17 @@ const useStyles = makeStyles(() => ({
       transform: "scale(1.1)",
       width: "94%",
     },
+    "&:hover > $description p": {
+      opacity: "1",
+    },
+    "&:hover > $description": {
+      backgroundSize: "600px",
+      opacity: "0.5"
+    },
   },
   head: {
     width: "100%",
-    height: "191px",
+    height: "150px",
     display: "flex",
     justifyContent: "center",
     backgroundColor: "#004775",
@@ -26,7 +33,7 @@ const useStyles = makeStyles(() => ({
   },
   icon: {
     width: "80%",
-    height: "40%",
+    height: "50%",
     display: "flex",
     justifyContent: "center",
     backgroundColor: "#FFF",
@@ -50,30 +57,24 @@ const useStyles = makeStyles(() => ({
   },
   description: {
     width: "100%",
-    height: "220px",
+    height: "100%",
     display: "flex",
+    alignContent: "Center",
     justifyContent: "center",
     backgroundColor: "#FFF",
     transition: "all 2s",
-    color: "#FFF",
     opacity: "1",
     backgroundSize: "400px",
-    "&:hover": {
-      opacity: "1",
-      backgroundSize: "600px",
-    },
     "& > img": {
       width: "100%",
     },
     "& > p": {
       margin: "7px",
       opacity: "0",
-      transition: "all 2s",
+      transition: "all 1s",
       fontSize: "10px",
       textAlign: "center",
-      "&:hover": {
-        opacity: "1",
-      },
+      color: "#FFF",
     },
   },
 }));
