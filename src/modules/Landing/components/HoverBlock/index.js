@@ -1,21 +1,33 @@
 import React from "react";
 import useStyles from "./style";
 
-const HoverBlock = ({iconHead, titleNameblock, contentDescription, backg}) => {
+const HoverBlock = ({iconHead, titleNameblock, contentDescription, backgImg, backgColor}) => {
 const classes = useStyles();
 
   return (
     <div className={classes.container}>
-      <div className={classes.head}>
+      <div
+        className={classes.head}
+        style={{
+          backgroundColor: backgColor,
+        }}
+      >
         <div className={classes.icon}>
           <img src={iconHead} alt="icon" />
         </div>
       </div>
-      <div className={classes.namebox}>{titleNameblock}</div>
+      <div
+        className={classes.namebox}
+        style={{
+          backgroundColor: backgColor,
+        }}
+      >
+        {titleNameblock}
+      </div>
       <div
         className={classes.description}
         style={{
-          backgroundImage: `url("${backg}")`,
+          backgroundImage: `url("${backgImg}")`,
         }}
       >
         <p>{contentDescription}</p>
