@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
 import benefitConstants from "./constants";
-import icon1 from "../../../../assets/img/svg/1-27.svg";
-import icon2 from "../../../../assets/img/svg/1-11.svg";
+import icon1 from "../../../../assets/svg/icon1-27.svg";
+import icon2 from "../../../../assets/svg/icon1-11.svg";
 import statisticmascot from "../../../../assets/img/png/mascotaprueba222.png";
 
 
