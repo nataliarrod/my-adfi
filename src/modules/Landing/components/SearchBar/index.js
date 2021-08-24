@@ -1,5 +1,5 @@
 import React from "react";
-import mascot from "../../../../assets/img/png/mascotaprueba.png";
+import mascot from "../../../../assets/svg/searchMascot.svg";
 import icon1_30 from "../../../../assets/svg/1-30.svg";
 import "./style.css";
 import searchBarConstants from "./constants";
