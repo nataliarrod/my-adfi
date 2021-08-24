@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Icon from "../../../../assets/img/svg/mascot-04.svg";
+import Icon from "../../../../assets/svg/monsterHead.svg";
 import iconButton from "../../../../assets/svg/iconButton.svg";
 
 const Button = ({ type, text, link }) => {
