@@ -14,11 +14,11 @@ function LandingContainer() {
       <Layout>
         <Presentation />
         <Services />
-        <Testimonials />
         <Benefit />
         <Counter />
-        <SearchBar />
+        <Testimonials />
         <PayPlanSection />
+        <SearchBar />
       </Layout>
     </div>
   );

@@ -3,7 +3,7 @@ import "./style.css";
 import benefitConstants from "./constants";
 import icon1 from "../../../../assets/svg/icon1-27.svg";
 import icon2 from "../../../../assets/svg/icon1-11.svg";
-import statisticmascot from "../../../../assets/img/png/mascotaprueba222.png";
+import statisticmascot from "../../../../assets/svg/monsterImage.svg";
 
 
 const Benefit = () => {
@@ -34,7 +34,7 @@ return (
     <div className="benefit-statisticsMascot">
       <img
         src={statisticmascot}
-        alt="digital-design-businessman-show-increase-market-graphic"
+        alt="monsterImage"
       />
     </div>
   </div>
