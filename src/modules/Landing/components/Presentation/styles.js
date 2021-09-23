@@ -5,6 +5,7 @@ const useStyles = makeStyles(() => ({
     height: '500px',
     padding: '60px 0px 0px 160px',
     marginBottom: '50px',
+    marginTop: '83px',
   },
   textContainer: {
     display: 'flex',
