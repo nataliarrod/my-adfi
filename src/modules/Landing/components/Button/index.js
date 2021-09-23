@@ -3,34 +3,28 @@ import "./style.css";
 import Icon from "../../../../assets/svg/monsterHead.svg";
 import iconButton from "../../../../assets/svg/iconButton.svg";
 
-const Button = ({ type, text, link }) => {
+const Button = ({ type, text, onClickFunction }) => {
   if (type === "secondary-with-icon") {
     return (
-      <div className={`button-${type}`}>
-        <a href={link}>
+      <div className={`button-${type}`} onClick={onClickFunction}>
           {text}
           <img src={Icon} alt="icon" />
-        </a>
       </div>
     );
   }
   if (type === "tertiary-with-icon") {
     return (
-      <div className={`button-${type}`}>
-        <a href={link}>
+      <div className={`button-${type}`} onClick={onClickFunction}>
           <img src={iconButton} alt="icon" />
           {text}
-        </a>
       </div>
     );
-  }
-  return(
-    <div className={`button-${type}`}>
-      <a href={link}>
+  }  
+  return (
+    <div className={`button-${type}`} onClick={onClickFunction}>
         {text}
-      </a>
     </div>
-  )
+  );
 }
 
 export default Button;
