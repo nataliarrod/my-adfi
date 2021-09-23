@@ -1,17 +1,7 @@
-a {
-  font-family: "Poppins", sans-serif;
-  text-decoration: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
 .button-primary {
   background-color: #004775;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 11px;
-  color: white;
   width: 179px;
   height: 47px;
   display: flex;
@@ -23,10 +13,13 @@ a {
   font-weight: 600;
   font-size: 17px;
   line-height: 25px;
-}
-
-.button-primary a {
   color: white;
+  cursor: pointer;
+}
+.button-primary:hover {
+  font-size: 18px;
+  background: linear-gradient(180deg, #265e83 0%, #4293b3 100%);
+  transition: all 0.3s;
 }
 
 .button-secondary {
@@ -46,6 +39,14 @@ a {
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
+  cursor: pointer;
+}
+
+.button-secondary:hover {
+  font-size: 18px;
+  color: #FFF;
+  background: linear-gradient(180deg, #265e83 0%, #4293b3 100%);
+  transition: all 0.3s;
 }
 
 .button-tertiary {
@@ -62,17 +63,27 @@ a {
   font-weight: 600;
   font-size: 17px;
   color: #ffffff;
+  cursor: pointer;
 }
+
+.button-tertiary:hover {
+  font-size: 18px;
+  transition: all 0.3s;
+}
+
 
 .button-link {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 27px;
+  color:#004775;
+  cursor: pointer;
 }
 
-.button-link a {
-  color: #004775;
+.button-link:hover {
+  font-size: 18px;
+  color: #0098ad;
 }
 
 .button-secondary-with-icon {
@@ -90,12 +101,21 @@ a {
   align-items: center;
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 27px;
+  cursor: pointer;
+}
+
+.button-secondary-with-icon:hover {
+  font-size: 18px;
+  color: #FFF;
+  background: linear-gradient(180deg, #265e83 0%, #4293b3 100%);
+  transition: all 0.3s;
 }
 
 .button-tertiary-with-icon {
   color: #0098ad;
+  font-family: Poppins;
   width: 200px;
   height: 47px;
   display: flex;
@@ -104,8 +124,14 @@ a {
   align-items: center;
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 27px;
+  cursor: pointer;
+}
+
+.button-tertiary-with-icon:hover {
+  font-size: 18px;
+  transition: all 0.3s;
 }
 
 .button-secondary-with-icon img {
@@ -117,18 +143,4 @@ a {
   width: 45px;
   height: 45px;
   margin-right: 10px;
-}
-
-.button-tertiary-with-icon a {
-  font-family: Poppins;
-  font-weight: 600;
-  font-size: 14px;
-}
-
-.button-secondary-with-icon a {
-  width: 133px;
-  height: 47px;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 10px;
 }

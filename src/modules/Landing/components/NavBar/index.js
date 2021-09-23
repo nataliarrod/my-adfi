@@ -3,11 +3,11 @@ import Logo from "../../../../assets/img/png/LOGO-02.png";
 import labelsNavBar from "./constants";
 import "./style.css";
 import Button from "../Button";
+import { useHistory } from "react-router-dom";
 
 
 
 const NavBar = () => {
-
   var prevScrollpos = window.pageYOffset;
   window.onscroll = function () {
     var currentScrollPos = window.pageYOffset;
@@ -19,6 +19,13 @@ const NavBar = () => {
     prevScrollpos = currentScrollPos;
   };
   
+  const History = useHistory();
+
+  const redirectTo = (url) => {
+    History.push(url);
+
+  }
+
   return (
     <div id="navbar" className="nav-bar-container">
       <div className="nav-bar-logo">
@@ -29,7 +36,7 @@ const NavBar = () => {
           {labelsNavBar.map((label, index) => {
             return (
               <li key={`nav-bar-label-${index}`}>
-                <Button type="link" text={label.name} link={label.url} />
+                <Button type="link" text={label.name} link={label.url} onClickFunction={() => {redirectTo(label.url)}} />
               </li>
             );
           })}
