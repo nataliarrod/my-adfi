@@ -6,15 +6,28 @@ import Button from "../Button";
 import { useHistory } from "react-router-dom";
 
 
+
 const NavBar = () => {
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-90px";
+    }
+    prevScrollpos = currentScrollPos;
+  };
+  
   const History = useHistory();
 
   const redirectTo = (url) => {
     History.push(url);
+
   }
 
   return (
-    <div className="nav-bar-container">
+    <div id="navbar" className="nav-bar-container">
       <div className="nav-bar-logo">
         <img src={Logo} alt="Logo" />
       </div>
